@@ -17,6 +17,11 @@ public class PTra01_06 {
 
 		// ★ 変数 str の中身を出力してください
 
+		String str;
+
+		str = "髙橋優";
+
+		System.out.println(str);
 
 	}
 }
