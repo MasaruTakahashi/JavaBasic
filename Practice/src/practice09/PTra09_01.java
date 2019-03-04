@@ -12,5 +12,12 @@ public class PTra09_01 {
 
 		// ★ 変数strを、Util内のメソッドを用いて0.5秒間隔で表示させなさい
 		// ※ Utilはインポートしても良いし、完全限定名で記述しても良いです
+		String message = str;
+		long millisecond = 500;
+
+	practice09.util.Util.dispMessageSlowly(message, millisecond);
+
+
 	}
 }
+
