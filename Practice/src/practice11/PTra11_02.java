@@ -13,8 +13,13 @@ public class PTra11_02 {
 
 
 		System.out.println("探したい本のタイトル（又はその一部）を入力してください");
+		
+		practice11.FileReaderClass.readBookDataFile();
+		
 
 		// ★ ユーザが入力した文字列が、本情報のタイトル一部に含まれていた場合は、その本情報を出力してください
 
+		System.out.println(practice11.FileReaderClass.readBookDataFile());
+		
 	}
 }
