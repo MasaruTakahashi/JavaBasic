@@ -19,5 +19,15 @@ public class PTra16_02 {
 		double d = 453.592;
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
+
+	new java.lang.Boolean(b);
+	new java.lang.Byte(by);
+	new java.lang.Short(s);
+	new java.lang.Character(c);
+	new java.lang.Integer(i);
+	new java.lang.Long(l);
+	new java.lang.Float(f);
+	new java.lang.Double(d);
+
 	}
 }
