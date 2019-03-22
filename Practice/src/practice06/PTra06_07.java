@@ -24,15 +24,10 @@ public class PTra06_07 {
 		 * ■■□□□
 		 * ■□□□□
 		 */
-		for(int i = 1;i<36;i++) {
-			System.out.print("-");
-		}
-		System.out.println("");
 
-		for(int j = 1; j<26;j++) {
+		for (int j = 1; j < 26; j++) {
 
-
-			switch(j) {
+			switch (j) {
 			case 6:
 			case 11:
 			case 12:
@@ -45,20 +40,19 @@ public class PTra06_07 {
 			case 24:
 				System.out.print("■");
 				break;
-				default:
-					System.out.print("□");
+			default:
+				System.out.print("□");
 
-					if(j%5==0) {
-						System.out.println("");
-					}
+				if (j % 5 == 0) {
+					System.out.println("");
+				}
 
-	}
-}
+			}
+		}
 
-		for(int l = 1; l<26;l++) {
+		for (int l = 1; l < 26; l++) {
 
-
-			switch(l) {
+			switch (l) {
 			case 14:
 			case 18:
 			case 19:
@@ -75,14 +69,13 @@ public class PTra06_07 {
 				System.out.print("□");
 				System.out.println("");
 				break;
-				default:
-					System.out.print("■");
+			default:
+				System.out.print("■");
 
-
-					if(l%5==0) {
-						System.out.println("");
-	}
-}
+				if (l % 5 == 0) {
+					System.out.println("");
+				}
+			}
 		}
 	}
 }

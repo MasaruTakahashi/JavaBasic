@@ -1,6 +1,6 @@
 package practice13.common;
 
-public class Employee extends Person{
+public class Employee extends Person {
 
 	/*
 	 * ★ common.Personクラスを継承して、common.Employeeクラスを作成してください
@@ -15,8 +15,7 @@ public class Employee extends Person{
 	private String departmentNm;
 	private int departmentCnt;
 
-	public void employee(){
-
+	public void employee() {
 
 	}
 
@@ -35,6 +34,5 @@ public class Employee extends Person{
 	public void setDepartmentCnt(int departmentCnt) {
 		this.departmentCnt = departmentCnt;
 	}
-
 
 }

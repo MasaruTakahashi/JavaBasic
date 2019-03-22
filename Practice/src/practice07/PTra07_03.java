@@ -11,16 +11,15 @@ public class PTra07_03 {
 
 		// ★ char型の配列keywordを定義し 「'平', '島', '沼', '山', '森'」 で初期化してください
 
-		char[] keyword = {'平', '島', '沼', '山', '森'};
-
+		char[] keyword = { '平', '島', '沼', '山', '森' };
 
 		// ★ 配列keywordに格納されている値を後ろから順番に全て表示してください
 
-		char[] b = {'森','山','沼','島','平'};
+		char[] b = { '森', '山', '沼', '島', '平' };
 
 		keyword = b;
 
-		for(int a =0; a<keyword.length;a++) {
+		for (int a = 0; a < keyword.length; a++) {
 			System.out.println(keyword[a]);
 		}
 

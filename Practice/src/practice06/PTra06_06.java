@@ -19,15 +19,10 @@ public class PTra06_06 {
 		 * ■■■□□
 		 * ■■■■□
 		 */
-		for(int i = 1;i<36;i++) {
-			System.out.print("-");
-		}
-		System.out.println("");
 
-		for(int j = 1; j<26;j++) {
+		for (int j = 1; j < 26; j++) {
 
-
-			switch(j) {
+			switch (j) {
 			case 6:
 			case 11:
 			case 12:
@@ -40,12 +35,12 @@ public class PTra06_06 {
 			case 24:
 				System.out.print("■");
 				break;
-				default:
-					System.out.print("□");
+			default:
+				System.out.print("□");
 
-					if(j%5==0) {
-						System.out.println("");
-					}
+				if (j % 5 == 0) {
+					System.out.println("");
+				}
 
 			}
 

@@ -48,7 +48,7 @@ public class PTra18_03 {
 		// ★ ①のArrayListの中から"レアル・マドリード", "バルセロナ"の選手を除外してください
 
 		for (int i = array.size() - 1; i >= 0; i--) {
-			if (array.get(i).getTeam().equals("レアル・マドリード") ||array.get(i).getTeam().equals("バルセロナ") ) {
+			if (array.get(i).getTeam().equals("レアル・マドリード") || array.get(i).getTeam().equals("バルセロナ")) {
 				array.remove(i);
 			}
 		}

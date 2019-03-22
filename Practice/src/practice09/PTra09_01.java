@@ -15,9 +15,7 @@ public class PTra09_01 {
 		String message = str;
 		long millisecond = 500;
 
-	practice09.util.Util.dispMessageSlowly(message, millisecond);
-
+		practice09.util.Util.dispMessageSlowly(message, millisecond);
 
 	}
 }
-

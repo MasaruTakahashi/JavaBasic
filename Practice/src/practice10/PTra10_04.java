@@ -26,10 +26,9 @@ public class PTra10_04 {
 		// ★ usersのサイズ分繰り返す制御構文を記述してください
 		//----------- ループ start
 
-		for(int i = 0 ; i<users.length ;i++) {
+		for (int i = 0; i < users.length; i++) {
 
-
-			System.out.println( (i+1) + "人目の情報を入力します");		/* ##には、カウントを入れてください */
+			System.out.println((i + 1) + "人目の情報を入力します"); /* ##には、カウントを入れてください */
 			System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 
 			// ★ コマンドプロンプトに入力された値を、String型の変数lineに格納してください
@@ -45,9 +44,7 @@ public class PTra10_04 {
 			// ★ 配列にした値を、users[カウント]の各フィールドに代入してください
 			// ★ ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
 
-
-
-			users[i].userId =Integer.parseInt(list[0]);
+			users[i].userId = Integer.parseInt(list[0]);
 
 			users[i].userNm = list[1];
 
@@ -55,20 +52,15 @@ public class PTra10_04 {
 
 			users[i].password = list[3];
 
-
 		}
 
 		//----------- ループ end
 
 		// ★ usersに格納されている全てのインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
 
-
-		System.out.println(users[0].userId+","+users[0].userNm+","+users[0].mail+","+users[0].password);
-		System.out.println(users[1].userId+","+users[1].userNm+","+users[1].mail+","+users[1].password);
-		System.out.println(users[2].userId+","+users[2].userNm+","+users[2].mail+","+users[2].password);
+		System.out.println(users[0].userId + "," + users[0].userNm + "," + users[0].mail + "," + users[0].password);
+		System.out.println(users[1].userId + "," + users[1].userNm + "," + users[1].mail + "," + users[1].password);
+		System.out.println(users[2].userId + "," + users[2].userNm + "," + users[2].mail + "," + users[2].password);
 
 	}
 }
-
-
-

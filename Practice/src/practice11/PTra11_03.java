@@ -19,14 +19,15 @@ public class PTra11_03 {
 	 */
 
 	PTra11_03() {
-		number+=1;
+		number += 1;
 	}
+
 	public static void main(String[] args) {
 
 		// ★ sumメソッドを呼び出してください
 
 		PTra11_03 a = new PTra11_03();
-		a.sum(number,number);
+		a.sum(number, number);
 
 	}
 

@@ -30,21 +30,17 @@ public class PTra10_03 {
 
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
 
-
-
 		// ★ 入力された値を、String型の変数lineに格納してください
 
 		java.lang.String line = scanner.nextLine();
 
-
 		// ★ 変数lineに格納されている値を','で区切り、配列にしてください（Stringクラスのメソッドを使用します）
 		String[] list = line.split(",");
-
 
 		// ★ 配列にした値を、usの各フィールドに代入してください
 		// ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
 
-		us.userId =Integer.parseInt(list[0]);
+		us.userId = Integer.parseInt(list[0]);
 
 		us.userNm = list[1];
 
@@ -54,6 +50,6 @@ public class PTra10_03 {
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
 
-		System.out.println(us.userId+us.userNm+us.mail+us.password);
+		System.out.println(us.userId + us.userNm + us.mail + us.password);
 	}
 }

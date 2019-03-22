@@ -21,13 +21,9 @@ public class PTra11_02 {
 		// ★ ユーザが入力した文字列が、本情報のタイトル一部に含まれていた場合は、その本情報を出力してください
 
 		for (int i = 0; i < bookList.length; i++) {
-			if(bookList[i].title.contains(line)) {
+			if (bookList[i].title.contains(line)) {
 				System.out.println(bookList[i].dispBookInfo());
 			}
-
-
-
-
 
 		}
 	}

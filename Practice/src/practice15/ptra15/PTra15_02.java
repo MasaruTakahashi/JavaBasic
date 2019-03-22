@@ -20,7 +20,7 @@ public class PTra15_02 {
 
 		// 取得したカリキュラム情報を全て出力してください
 
-		for(String c : java2month.getCurriculum())
-		System.out.println(c);
+		for (String c : java2month.getCurriculum())
+			System.out.println(c);
 	}
 }

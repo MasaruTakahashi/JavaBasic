@@ -27,8 +27,9 @@ public class PTra01_07 {
 		s = 3;
 		c = 'a';
 		i = 5;
-		f = 6;
-		d = 7;
+		l = 6l;
+		f = 7f;
+		d = 8;
 
 
 
@@ -44,6 +45,7 @@ public class PTra01_07 {
 		System.out.println(s);
 		System.out.println(c);
 		System.out.println(i);
+		System.out.println(l);
 		System.out.println(f);
 		System.out.println(d);
 
